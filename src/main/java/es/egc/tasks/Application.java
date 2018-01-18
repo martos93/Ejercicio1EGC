@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 	
-	logger.info("Initializing application...");
+	logger.info("Inicializando aplicación...");
 	
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
