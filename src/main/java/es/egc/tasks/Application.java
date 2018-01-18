@@ -10,7 +10,9 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
-
+	
+	logger.info("Initializing application...");
+	
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
